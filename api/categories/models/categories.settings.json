@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "Categories",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "services": {
+      "via": "categories",
+      "collection": "services"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}
