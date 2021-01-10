@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/abous-us",
+      "handler": "abous-us.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/abous-us",
+      "handler": "abous-us.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/abous-us",
+      "handler": "abous-us.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

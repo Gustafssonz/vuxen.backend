@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "abous_uses",
+  "info": {
+    "name": "Abous us"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "describtion": {
+      "type": "richtext"
+    }
+  }
+}
